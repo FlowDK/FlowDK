@@ -1,0 +1,22 @@
+{
+  "name": "FlowDK",
+  "version": "0.1.0",
+  "summary": "A short description of FlowDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JP McGlone/FlowDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JP McGlone": "jp@trifl.co"
+  },
+  "source": {
+    "git": "https://github.com/JP McGlone/FlowDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FlowDK/Classes/**/*"
+}
