@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_FlowDK_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_FlowDK_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_FlowDK_FlowDK_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_FlowDK_FlowDK_ExampleVersionString[];
 

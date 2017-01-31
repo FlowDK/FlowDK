@@ -1,6 +1,0 @@
-framework module Pods_FlowDK_Tests {
-  umbrella header "Pods-FlowDK_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

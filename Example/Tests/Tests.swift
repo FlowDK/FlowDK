@@ -6,22 +6,17 @@ import FlowDK
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {
-        describe("these will fail") {
-
-            it("can do maths") {
-                expect(1) == 2
+        describe("Foundation Extensions") {
+            context("String") {
+                it("url works") {
+                    let urlString = "http://www.google.com"
+                    expect(urlString.url?.absoluteString) == urlString
+                }
             }
-
-            it("can read") {
-                expect("number") == "string"
-            }
-
-            it("will eventually fail") {
-                expect("time").toEventually( equal("done") )
-            }
-            
+        }
+        
+        describe("Misc Examples") {
             context("these will pass") {
-
                 it("can do maths") {
                     expect(23) == 23
                 }

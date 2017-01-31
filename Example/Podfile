@@ -1,11 +1,10 @@
 use_frameworks!
 
-target 'FlowDK_Example' do
+abstract_target 'FlowDK' do
   pod 'FlowDK', :path => '../'
-
+  
+  target 'FlowDK_Example'
   target 'FlowDK_Tests' do
-    inherit! :search_paths
-
     pod 'Quick', '~> 1.0.0'
     pod 'Nimble', '~> 5.1.1'
   end
