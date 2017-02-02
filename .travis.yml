@@ -7,10 +7,7 @@ language: swift
 
 # cache: cocoapods
 # podfile: Example/Podfile
-before_install:
- - cd Example
- - gem install bundle
- - bundle update
- - bundle exec pod install
 script:
+ - cd Example
+ - bundle update
  - bundle exec fastlane test

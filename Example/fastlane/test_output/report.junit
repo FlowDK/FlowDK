@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<testsuites name='FlowDK_Tests.xctest' tests='4' failures='0'>
-  <testsuite name='FlowDK_Tests.ExtensionsSpec' tests='4' failures='0'>
-    <testcase classname='FlowDK_Tests.ExtensionsSpec' name='Foundation_Extensions__String__url' time='0.009'/>
-    <testcase classname='FlowDK_Tests.ExtensionsSpec' name='UIKit_Extensions__UIWindow__initWithRootViewController_makeKeyAndVisible_' time='0.003'/>
-    <testcase classname='FlowDK_Tests.ExtensionsSpec' name='UIKit_Extensions__UIView__addSubviews' time='0.001'/>
-    <testcase classname='FlowDK_Tests.ExtensionsSpec' name='UIKit_Extensions__UIColor__initWithHex_alpha' time='0.002'/>
-  </testsuite>
-</testsuites>

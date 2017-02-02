@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F9D60FE822BBD9ABD4F78A0 /* Pods_FlowDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFE2CB204BF9C1837BA9D0C /* Pods_FlowDK_Tests.framework */; };
-		256DA4444CDCFEA6509D6036 /* Pods_FlowDK_FlowDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE61B4672E4DCF9C0A55417 /* Pods_FlowDK_FlowDK_Tests.framework */; };
-		588DED462BE9A4161DE777F4 /* Pods_FlowDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CAF88CE436AFB1439F4E80 /* Pods_FlowDK_Example.framework */; };
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		40FD04951E431C99008118D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FD04921E431C99008118D7 /* AppDelegate.swift */; };
+		40FD04961E431C99008118D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40FD04931E431C99008118D7 /* Images.xcassets */; };
+		40FD04971E431C99008118D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FD04941E431C99008118D7 /* ViewController.swift */; };
+		40FD04991E431CA4008118D7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40FD04981E431CA4008118D7 /* Info.plist */; };
+		40FD049C1E431D04008118D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40FD049A1E431D04008118D7 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		CE951549F365468AA44C29B1 /* Pods_FlowDK_FlowDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628CE3DBADF46F01C4618A0C /* Pods_FlowDK_FlowDK_Example.framework */; };
+		9425D9E78379A3CDA2F4C995 /* Pods_FlowDK_FlowDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA43F2C9F7D5D21C7674A9B /* Pods_FlowDK_FlowDK_Tests.framework */; };
+		B347CC3AEFE440495C941F88 /* Pods_FlowDK_FlowDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BB7EABC788897AFA5CBDB4 /* Pods_FlowDK_FlowDK_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,36 +28,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E590AA6F60A1A7FD16FC366 /* Pods-FlowDK-FlowDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowDK-FlowDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlowDK-FlowDK_Tests/Pods-FlowDK-FlowDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2BB10C9D8DC8A196F40DDFB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3AE61B4672E4DCF9C0A55417 /* Pods_FlowDK_FlowDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowDK_FlowDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		40FD047E1E4075A6008118D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40FD04801E4075A6008118D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		40FD04831E4075A6008118D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		40FD04851E4075A6008118D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		40FD04881E4075A6008118D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		40FD048A1E4075A6008118D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45CD9521BCC648A2A4981355 /* Pods-FlowDK-FlowDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowDK-FlowDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlowDK-FlowDK_Example/Pods-FlowDK-FlowDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		20BB7EABC788897AFA5CBDB4 /* Pods_FlowDK_FlowDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowDK_FlowDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FD04921E431C99008118D7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "FlowDK-Example/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		40FD04931E431C99008118D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "FlowDK-Example/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		40FD04941E431C99008118D7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "FlowDK-Example/ViewController.swift"; sourceTree = SOURCE_ROOT; };
+		40FD04981E431CA4008118D7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "FlowDK-Example/Info.plist"; sourceTree = SOURCE_ROOT; };
+		40FD049B1E431D04008118D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "FlowDK-Example/Base.lproj/LaunchScreen.xib"; sourceTree = SOURCE_ROOT; };
+		4DA43F2C9F7D5D21C7674A9B /* Pods_FlowDK_FlowDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowDK_FlowDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* FlowDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* FlowDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		611AE8D0BD0CBB7B5914A993 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		628CE3DBADF46F01C4618A0C /* Pods_FlowDK_FlowDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowDK_FlowDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F52520B5813237F17FB43FC /* Pods-FlowDK-FlowDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowDK-FlowDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlowDK-FlowDK_Tests/Pods-FlowDK-FlowDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7F0C098F28005DED7DA564FC /* FlowDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FlowDK.podspec; path = ../FlowDK.podspec; sourceTree = "<group>"; };
-		A72DE2B0F7BF9AEBFD94354E /* Pods-FlowDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlowDK_Example/Pods-FlowDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AEA689C16CB28C0A8FD2B89C /* Pods-FlowDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlowDK_Tests/Pods-FlowDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CD7F16BBCD3CEA7B23D5BBE4 /* Pods-FlowDK-FlowDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowDK-FlowDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlowDK-FlowDK_Example/Pods-FlowDK-FlowDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E1CAF88CE436AFB1439F4E80 /* Pods_FlowDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC2D0A2CEF54C8B466A6E223 /* Pods-FlowDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlowDK_Tests/Pods-FlowDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EDFE2CB204BF9C1837BA9D0C /* Pods_FlowDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F03650C4012E2297AAE2D295 /* Pods-FlowDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlowDK_Example/Pods-FlowDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		665BE6721AE07E242C289FAB /* Pods-FlowDK-FlowDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowDK-FlowDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlowDK-FlowDK_Tests/Pods-FlowDK-FlowDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7F2D2A9BD00A63EAE9064661 /* Pods-FlowDK-FlowDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowDK-FlowDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlowDK-FlowDK_Tests/Pods-FlowDK-FlowDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D32DB8CCB22621C265EC445D /* Pods-FlowDK-FlowDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowDK-FlowDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlowDK-FlowDK_Example/Pods-FlowDK-FlowDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DA722AD0B9CC1EE44C1DB8FB /* Pods-FlowDK-FlowDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowDK-FlowDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlowDK-FlowDK_Example/Pods-FlowDK-FlowDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				588DED462BE9A4161DE777F4 /* Pods_FlowDK_Example.framework in Frameworks */,
-				CE951549F365468AA44C29B1 /* Pods_FlowDK_FlowDK_Example.framework in Frameworks */,
+				B347CC3AEFE440495C941F88 /* Pods_FlowDK_FlowDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,48 +58,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F9D60FE822BBD9ABD4F78A0 /* Pods_FlowDK_Tests.framework in Frameworks */,
-				256DA4444CDCFEA6509D6036 /* Pods_FlowDK_FlowDK_Tests.framework in Frameworks */,
+				9425D9E78379A3CDA2F4C995 /* Pods_FlowDK_FlowDK_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F3C957D0C46407299A72549 /* Frameworks */ = {
+		0D27E229C7C9CCA751F2333E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E1CAF88CE436AFB1439F4E80 /* Pods_FlowDK_Example.framework */,
-				EDFE2CB204BF9C1837BA9D0C /* Pods_FlowDK_Tests.framework */,
-				628CE3DBADF46F01C4618A0C /* Pods_FlowDK_FlowDK_Example.framework */,
-				3AE61B4672E4DCF9C0A55417 /* Pods_FlowDK_FlowDK_Tests.framework */,
+				DA722AD0B9CC1EE44C1DB8FB /* Pods-FlowDK-FlowDK_Example.debug.xcconfig */,
+				D32DB8CCB22621C265EC445D /* Pods-FlowDK-FlowDK_Example.release.xcconfig */,
+				7F2D2A9BD00A63EAE9064661 /* Pods-FlowDK-FlowDK_Tests.debug.xcconfig */,
+				665BE6721AE07E242C289FAB /* Pods-FlowDK-FlowDK_Tests.release.xcconfig */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		40FD047D1E4075A6008118D7 /* TestHost */ = {
-			isa = PBXGroup;
-			children = (
-				40FD047E1E4075A6008118D7 /* AppDelegate.swift */,
-				40FD04801E4075A6008118D7 /* ViewController.swift */,
-				40FD04821E4075A6008118D7 /* Main.storyboard */,
-				40FD04851E4075A6008118D7 /* Assets.xcassets */,
-				40FD04871E4075A6008118D7 /* LaunchScreen.storyboard */,
-				40FD048A1E4075A6008118D7 /* Info.plist */,
-			);
-			path = TestHost;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for FlowDK */,
 				607FACE81AFB9204008FA782 /* Tests */,
-				40FD047D1E4075A6008118D7 /* TestHost */,
 				607FACD11AFB9204008FA782 /* Products */,
-				77FE8056AD18561E53128FEC /* Pods */,
-				2F3C957D0C46407299A72549 /* Frameworks */,
+				0D27E229C7C9CCA751F2333E /* Pods */,
+				CEF9E2C4563A1D6AE22555FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,10 +99,10 @@
 		607FACD21AFB9204008FA782 /* Example for FlowDK */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				40FD04921E431C99008118D7 /* AppDelegate.swift */,
+				40FD04931E431C99008118D7 /* Images.xcassets */,
+				40FD04941E431C99008118D7 /* ViewController.swift */,
+				40FD049A1E431D04008118D7 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for FlowDK";
@@ -145,7 +112,7 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD41AFB9204008FA782 /* Info.plist */,
+				40FD04981E431CA4008118D7 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -167,29 +134,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+		CEF9E2C4563A1D6AE22555FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7F0C098F28005DED7DA564FC /* FlowDK.podspec */,
-				2BB10C9D8DC8A196F40DDFB3 /* README.md */,
-				611AE8D0BD0CBB7B5914A993 /* LICENSE */,
+				20BB7EABC788897AFA5CBDB4 /* Pods_FlowDK_FlowDK_Example.framework */,
+				4DA43F2C9F7D5D21C7674A9B /* Pods_FlowDK_FlowDK_Tests.framework */,
 			);
-			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		77FE8056AD18561E53128FEC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A72DE2B0F7BF9AEBFD94354E /* Pods-FlowDK_Example.debug.xcconfig */,
-				F03650C4012E2297AAE2D295 /* Pods-FlowDK_Example.release.xcconfig */,
-				AEA689C16CB28C0A8FD2B89C /* Pods-FlowDK_Tests.debug.xcconfig */,
-				EC2D0A2CEF54C8B466A6E223 /* Pods-FlowDK_Tests.release.xcconfig */,
-				45CD9521BCC648A2A4981355 /* Pods-FlowDK-FlowDK_Example.debug.xcconfig */,
-				CD7F16BBCD3CEA7B23D5BBE4 /* Pods-FlowDK-FlowDK_Example.release.xcconfig */,
-				1E590AA6F60A1A7FD16FC366 /* Pods-FlowDK-FlowDK_Tests.debug.xcconfig */,
-				6F52520B5813237F17FB43FC /* Pods-FlowDK-FlowDK_Tests.release.xcconfig */,
-			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,12 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "FlowDK_Example" */;
 			buildPhases = (
-				2B4908EE81BB7DE37DDF9486 /* [CP] Check Pods Manifest.lock */,
+				5101277CC06DA99AFF29C96E /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				75FEA97DE369189E83AF6ACC /* [CP] Embed Pods Frameworks */,
-				02C90E63CA838560D12A9E62 /* [CP] Copy Pods Resources */,
+				57B23BBA3D55C4E09AED2861 /* [CP] Embed Pods Frameworks */,
+				E4F11862EA17C937AB02BEDC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,12 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "FlowDK_Tests" */;
 			buildPhases = (
-				929DCFE6F099CFAEA01BE1D8 /* [CP] Check Pods Manifest.lock */,
+				2A47415A85D388A7CB608289 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				5428B2BDCDCF18B7873BD4BD /* [CP] Embed Pods Frameworks */,
-				1E5D20E9B4ADA900C88F7DCC /* [CP] Copy Pods Resources */,
+				C37A14418A0ACABB4A96C241 /* [CP] Embed Pods Frameworks */,
+				C5594127B19BF387FA993AD7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,8 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				40FD04961E431C99008118D7 /* Images.xcassets in Resources */,
+				40FD049C1E431D04008118D7 /* LaunchScreen.xib in Resources */,
+				40FD04991E431CA4008118D7 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,37 +248,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		02C90E63CA838560D12A9E62 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlowDK-FlowDK_Example/Pods-FlowDK-FlowDK_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1E5D20E9B4ADA900C88F7DCC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlowDK-FlowDK_Tests/Pods-FlowDK-FlowDK_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2B4908EE81BB7DE37DDF9486 /* [CP] Check Pods Manifest.lock */ = {
+		2A47415A85D388A7CB608289 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -341,22 +263,22 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		5428B2BDCDCF18B7873BD4BD /* [CP] Embed Pods Frameworks */ = {
+		5101277CC06DA99AFF29C96E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlowDK-FlowDK_Tests/Pods-FlowDK-FlowDK_Tests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		75FEA97DE369189E83AF6ACC /* [CP] Embed Pods Frameworks */ = {
+		57B23BBA3D55C4E09AED2861 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,19 +293,49 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlowDK-FlowDK_Example/Pods-FlowDK-FlowDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		929DCFE6F099CFAEA01BE1D8 /* [CP] Check Pods Manifest.lock */ = {
+		C37A14418A0ACABB4A96C241 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlowDK-FlowDK_Tests/Pods-FlowDK-FlowDK_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5594127B19BF387FA993AD7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlowDK-FlowDK_Tests/Pods-FlowDK-FlowDK_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4F11862EA17C937AB02BEDC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlowDK-FlowDK_Example/Pods-FlowDK-FlowDK_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -393,8 +345,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				40FD04971E431C99008118D7 /* ViewController.swift in Sources */,
+				40FD04951E431C99008118D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,26 +369,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		40FD04821E4075A6008118D7 /* Main.storyboard */ = {
+		40FD049A1E431D04008118D7 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				40FD04831E4075A6008118D7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		40FD04871E4075A6008118D7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				40FD04881E4075A6008118D7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				40FD049B1E431D04008118D7 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -533,24 +469,27 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45CD9521BCC648A2A4981355 /* Pods-FlowDK-FlowDK_Example.debug.xcconfig */;
+			baseConfigurationReference = DA722AD0B9CC1EE44C1DB8FB /* Pods-FlowDK-FlowDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FlowDK/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "FlowDK-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD7F16BBCD3CEA7B23D5BBE4 /* Pods-FlowDK-FlowDK_Example.release.xcconfig */;
+			baseConfigurationReference = D32DB8CCB22621C265EC445D /* Pods-FlowDK-FlowDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FlowDK/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "FlowDK-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -561,7 +500,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E590AA6F60A1A7FD16FC366 /* Pods-FlowDK-FlowDK_Tests.debug.xcconfig */;
+			baseConfigurationReference = 7F2D2A9BD00A63EAE9064661 /* Pods-FlowDK-FlowDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -583,7 +522,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F52520B5813237F17FB43FC /* Pods-FlowDK-FlowDK_Tests.release.xcconfig */;
+			baseConfigurationReference = 665BE6721AE07E242C289FAB /* Pods-FlowDK-FlowDK_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
