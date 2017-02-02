@@ -9,11 +9,6 @@
 /* Begin PBXBuildFile section */
 		0F9D60FE822BBD9ABD4F78A0 /* Pods_FlowDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFE2CB204BF9C1837BA9D0C /* Pods_FlowDK_Tests.framework */; };
 		256DA4444CDCFEA6509D6036 /* Pods_FlowDK_FlowDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE61B4672E4DCF9C0A55417 /* Pods_FlowDK_FlowDK_Tests.framework */; };
-		40FD047F1E4075A6008118D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FD047E1E4075A6008118D7 /* AppDelegate.swift */; };
-		40FD04811E4075A6008118D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FD04801E4075A6008118D7 /* ViewController.swift */; };
-		40FD04841E4075A6008118D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FD04821E4075A6008118D7 /* Main.storyboard */; };
-		40FD04861E4075A6008118D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40FD04851E4075A6008118D7 /* Assets.xcassets */; };
-		40FD04891E4075A6008118D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FD04871E4075A6008118D7 /* LaunchScreen.storyboard */; };
 		588DED462BE9A4161DE777F4 /* Pods_FlowDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CAF88CE436AFB1439F4E80 /* Pods_FlowDK_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -24,13 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		40FD048E1E4075B0008118D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 40FD047B1E4075A6008118D7;
-			remoteInfo = TestHost;
-		};
 		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
@@ -44,7 +32,6 @@
 		1E590AA6F60A1A7FD16FC366 /* Pods-FlowDK-FlowDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowDK-FlowDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlowDK-FlowDK_Tests/Pods-FlowDK-FlowDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2BB10C9D8DC8A196F40DDFB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3AE61B4672E4DCF9C0A55417 /* Pods_FlowDK_FlowDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowDK_FlowDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		40FD047C1E4075A6008118D7 /* TestHost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40FD047E1E4075A6008118D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40FD04801E4075A6008118D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40FD04831E4075A6008118D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,13 +62,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		40FD04791E4075A6008118D7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		607FACCD1AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,7 +125,6 @@
 			children = (
 				607FACD01AFB9204008FA782 /* FlowDK_Example.app */,
 				607FACE51AFB9204008FA782 /* FlowDK_Tests.xctest */,
-				40FD047C1E4075A6008118D7 /* TestHost.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,23 +195,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		40FD047B1E4075A6008118D7 /* TestHost */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 40FD048D1E4075A6008118D7 /* Build configuration list for PBXNativeTarget "TestHost" */;
-			buildPhases = (
-				40FD04781E4075A6008118D7 /* Sources */,
-				40FD04791E4075A6008118D7 /* Frameworks */,
-				40FD047A1E4075A6008118D7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TestHost;
-			productName = TestHost;
-			productReference = 40FD047C1E4075A6008118D7 /* TestHost.app */;
-			productType = "com.apple.product-type.application";
-		};
 		607FACCF1AFB9204008FA782 /* FlowDK_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "FlowDK_Example" */;
@@ -268,7 +230,6 @@
 			);
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
-				40FD048F1E4075B0008118D7 /* PBXTargetDependency */,
 			);
 			name = FlowDK_Tests;
 			productName = Tests;
@@ -285,10 +246,6 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					40FD047B1E4075A6008118D7 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0820;
@@ -296,7 +253,7 @@
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0820;
-						TestTargetID = 40FD047B1E4075A6008118D7;
+						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -314,23 +271,12 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* FlowDK_Example */,
-				40FD047B1E4075A6008118D7 /* TestHost */,
 				607FACE41AFB9204008FA782 /* FlowDK_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		40FD047A1E4075A6008118D7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40FD04891E4075A6008118D7 /* LaunchScreen.storyboard in Resources */,
-				40FD04861E4075A6008118D7 /* Assets.xcassets in Resources */,
-				40FD04841E4075A6008118D7 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		607FACCE1AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -443,15 +389,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		40FD04781E4075A6008118D7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40FD04811E4075A6008118D7 /* ViewController.swift in Sources */,
-				40FD047F1E4075A6008118D7 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -472,11 +409,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		40FD048F1E4075B0008118D7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 40FD047B1E4075A6008118D7 /* TestHost */;
-			targetProxy = 40FD048E1E4075B0008118D7 /* PBXContainerItemProxy */;
-		};
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* FlowDK_Example */;
@@ -512,40 +444,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		40FD048B1E4075A6008118D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = TestHost/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.trifl.TestHost;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		40FD048C1E4075A6008118D7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				INFOPLIST_FILE = TestHost/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.trifl.TestHost;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -679,7 +577,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestHost.app/TestHost";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowDK_Example.app/FlowDK_Example";
 			};
 			name = Debug;
 		};
@@ -697,21 +595,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestHost.app/TestHost";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowDK_Example.app/FlowDK_Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		40FD048D1E4075A6008118D7 /* Build configuration list for PBXNativeTarget "TestHost" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				40FD048B1E4075A6008118D7 /* Debug */,
-				40FD048C1E4075A6008118D7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "FlowDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
