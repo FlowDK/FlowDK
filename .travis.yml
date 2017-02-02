@@ -10,6 +10,7 @@ language: swift
 before_install:
  - cd Example
  - gem install bundle
+ - bundle update
  - bundle exec pod install
 script:
  - bundle exec fastlane test
