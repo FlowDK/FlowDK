@@ -5,15 +5,12 @@
 osx_image: xcode8.2
 language: swift 
 
-cache: cocoapods
-podfile: Podfile
-
 before_install:
  - gpg2 --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
  - rvm get head
- - gem install bundle
-
+install:
+ - gem install bundle 
+ - bundle install
+ - bundle exec pod install
 script:
- - cd Example
- - bundle update
  - bundle exec fastlane test
