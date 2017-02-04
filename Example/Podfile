@@ -1,7 +1,7 @@
 use_frameworks!
 
 abstract_target 'FlowDK' do
-  pod 'FlowDK', :path => '.'
+  pod 'FlowDK', :path => '..'
   
   target 'FlowDK_Example'
   target 'FlowDK_Tests' do

@@ -4,19 +4,19 @@ PODS:
   - Quick (1.0.0)
 
 DEPENDENCIES:
-  - FlowDK (from `.`)
+  - FlowDK (from `..`)
   - Nimble (~> 5.1.1)
   - Quick (~> 1.0.0)
 
 EXTERNAL SOURCES:
   FlowDK:
-    :path: "."
+    :path: ".."
 
 SPEC CHECKSUMS:
   FlowDK: 45dbbb4b7d44db678117d380094ea4868b3057a1
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
 
-PODFILE CHECKSUM: db13291e89c63ca04bd23ac11f619088fe14451a
+PODFILE CHECKSUM: 20e40d835939195f1c4d020ebbd7cdc0238cfa7c
 
 COCOAPODS: 1.2.0
