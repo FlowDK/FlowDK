@@ -50,5 +50,21 @@ class ExtensionsSpec: QuickSpec {
                 }
             }
         }
+        
+        describe("Utlities") {
+            var value = false
+            context("Trigger") {
+                it("works") {
+                    let trigger = Trigger(condition: { trigger in
+                        return true
+                    }, action: { trigger in
+                        value = true
+                    })
+                    
+                    trigger.pull()
+                    expect(value) == true
+                }
+            }
+        }
     }
 }
