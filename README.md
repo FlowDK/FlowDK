@@ -20,6 +20,10 @@ it, simply add the following line to your Podfile:
 pod "FlowDK"
 ```
 
+## Style Guide
+
+Thie project follows the [Official FlowDK Swift Style Guide](https://github.com/FlowDK/swift-style-guide)
+
 ## Author
 
 JP McGlone, jp@trifl.co
