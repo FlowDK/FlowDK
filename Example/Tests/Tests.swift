@@ -63,6 +63,7 @@ class ExtensionsSpec: QuickSpec {
                     
                     trigger.pull()
                     expect(value) == true
+                    expect(trigger.pullCount) == 1
                 }
             }
         }
