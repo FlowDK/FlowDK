@@ -56,14 +56,18 @@ class ExtensionsSpec: QuickSpec {
             context("Trigger") {
                 it("works") {
                     let trigger = Trigger(condition: { trigger in
-                        return true
+                        return (trigger.pullCount > 1)
                     }, action: { trigger in
                         value = true
                     })
                     
                     trigger.pull()
-                    expect(value) == true
+                    expect(value) == false
                     expect(trigger.pullCount) == 1
+                    
+                    trigger.pull()
+                    expect(value) == true
+                    expect(trigger.pullCount) == 2
                 }
             }
         }

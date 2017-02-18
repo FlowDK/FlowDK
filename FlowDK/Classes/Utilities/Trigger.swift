@@ -57,8 +57,10 @@ public class Trigger {
      the `action` will be called
      */
     public func pull() {
-        if _valid && condition(self) {
-            pullCount += 1
+        guard _valid else { return }
+        
+        pullCount += 1
+        if condition(self) {
             action(self)
         }
     }
