@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+FlowDK is an SDK for Swift developers intended to optimize their happiness by extending the Swift standard library with delightful and useful extensions, utilities, views and more.
                        DESC
 
   s.homepage         = 'https://github.com/JP McGlone/FlowDK'
