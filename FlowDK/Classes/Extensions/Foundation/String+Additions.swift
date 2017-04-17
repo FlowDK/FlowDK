@@ -1,3 +1,3 @@
 public extension String {
-    public var url: URL? { return URL(string: self) }
+  public var url: URL? { return URL(string: self) }
 }
