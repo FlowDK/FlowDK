@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 FlowDK is an SDK for Swift developers intended to optimize their happiness by extending the Swift standard library with delightful and useful extensions, utilities, views and more.
                        DESC
 
-  s.homepage         = 'https://github.com/JP McGlone/FlowDK'
+  s.homepage         = 'https://github.com/FlowDK/FlowDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JP McGlone' => 'jp@trifl.co' }
