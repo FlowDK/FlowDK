@@ -1,11 +1,12 @@
 import UIKit
 
 public extension UIWindow {
-    public convenience init(rootViewController: UIViewController, makeKeyAndVisible: Bool = true) {
-        self.init(frame: UIScreen.main.bounds)
-        self.rootViewController = rootViewController
-        if makeKeyAndVisible {
-            self.makeKeyAndVisible()
-        }
+  public class func window(rootViewController: UIViewController, makeKeyAndVisible: Bool) -> UIWindow {
+    let window = UIWindow(frame: UIScreen.main.bounds)
+    window.rootViewController = rootViewController
+    if makeKeyAndVisible {
+      window.makeKeyAndVisible()
     }
+    return window
+  }
 }
