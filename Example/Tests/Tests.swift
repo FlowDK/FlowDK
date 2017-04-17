@@ -9,10 +9,20 @@ class ExtensionsSpec: QuickSpec {
       context("Comparable Extensions") {
         it("clamp") {
           expect(2.clamp(min: 3, max: 10)).to(equal(3))
+          expect(clamp(value: 2, min: 3, max: 10)).to(equal(3))
+          
           expect(5.clamp(min: 3, max: 10)).to(equal(5))
+          expect(clamp(value: 5, min: 3, max: 10)).to(equal(5))
+
           expect(22.clamp(min: 3, max: 10)).to(equal(10))
+          expect(clamp(value: 22, min: 3, max: 10)).to(equal(10))
+
           expect(-2.clamp(min: 3, max: 10)).to(equal(-3))
+          expect(clamp(value: -2, min: 3, max: 10)).to(equal(3))
+
+          // -2 doesn't need to be in parenthesis here
           expect((-2).clamp(min: 3, max: 10)).to(equal(3))
+          expect(clamp(value: (-2), min: 3, max: 10)).to(equal(3))
         }
       }
       describe("Foundation Extensions") {
@@ -34,10 +44,17 @@ class ExtensionsSpec: QuickSpec {
           }
         }
         context("UIView") {
-          it("addSubviews") {
-            let view = UIView()
-            let subview1 = UIView()
-            let subview2 = UIView()
+          let view = UIView()
+          let subview1 = UIView()
+          let subview2 = UIView()
+        
+          it("addSubviews vargs") {
+            view.addSubviews(subview1, subview2)
+
+            expect(view.subviews.contains(subview1)).to(equal(true))
+            expect(view.subviews.contains(subview2)).to(equal(true))
+          }
+          it("addSubviews array") {
             view.addSubviews([subview1, subview2])
             
             expect(view.subviews.contains(subview1)).to(equal(true))

@@ -1,11 +1,3 @@
-//
-//  Trigger.swift
-//  Pods
-//
-//  Created by JP McGlone on 2/3/17.
-//
-//
-
 public class Trigger {
   /**
    A Condition returns true to make the Trigger fire its action
