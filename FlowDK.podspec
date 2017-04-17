@@ -25,7 +25,7 @@ FlowDK is an SDK for Swift developers intended to optimize their happiness by ex
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JP McGlone' => 'jp@trifl.co' }
-  s.source           = { :git => 'https://github.com/JP McGlone/FlowDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/FlowDK/FlowDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
