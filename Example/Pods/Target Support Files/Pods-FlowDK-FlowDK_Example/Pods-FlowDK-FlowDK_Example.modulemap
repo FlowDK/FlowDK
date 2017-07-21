@@ -1,6 +1,0 @@
-framework module Pods_FlowDK_FlowDK_Example {
-  umbrella header "Pods-FlowDK-FlowDK_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
