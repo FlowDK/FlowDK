@@ -18,7 +18,7 @@ public extension UIView {
 
 import UIKit
 
-public enum TKLayoutOrientation {
+public enum LayoutOrientation {
   case horizontal, vertical
 }
 
@@ -92,6 +92,28 @@ public extension UIView {
     frame = frameInView(view)
   }
   
+  // Ceter the view horizontally or vertically
+  public func center(orientation: LayoutOrientation) {
+    guard let superview = superview else {
+      // TODO: log a warning
+      print("center(orientation: LayoutOrientation) You cannot center a view that does not have a superview.")
+      return
+    }
+    
+    switch orientation {
+    case .horizontal:
+      center.x = superview.middle.x
+    case .vertical:
+      center.y = superview.middle.y
+    }
+  }
+  
+  public func center(subviews: [UIView], orientation: LayoutOrientation) {
+    for subview in subviews {
+      subview.center(orientation: orientation)
+    }
+  }
+  
   // MARK: Layout helpers
   /**
    layout your views horizontally or vertically
@@ -102,7 +124,7 @@ public extension UIView {
    
    - [1, view1, 0.5, view2, 1] will space out view1 and view2 such that the margin of the left and the right are the same, but the space between the views will be half that of the margin
    */
-  public func layout(orientation: TKLayoutOrientation, items: [LayoutItem]) {
+  public func layout(orientation: LayoutOrientation, items: [LayoutItem]) {
     var delta: CGFloat = 0
     var totalPercentage: CGFloat = 0
     
