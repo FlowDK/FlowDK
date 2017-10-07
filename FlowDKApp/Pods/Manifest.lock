@@ -1,0 +1,16 @@
+PODS:
+  - FlowDK (0.1.0)
+
+DEPENDENCIES:
+  - FlowDK (from `..`)
+
+EXTERNAL SOURCES:
+  FlowDK:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  FlowDK: '094be5d9bbe2339bc29577f082f863a5ddc6043e'
+
+PODFILE CHECKSUM: 949c53f03fc036196904f03ba06206e1e0b456be
+
+COCOAPODS: 1.2.1
