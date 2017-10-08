@@ -11,8 +11,19 @@
 		4086EC641F896AC3007EF773 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4086EC631F896AC3007EF773 /* ViewController.swift */; };
 		4086EC691F896AC3007EF773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4086EC681F896AC3007EF773 /* Assets.xcassets */; };
 		4086EC6C1F896AC3007EF773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4086EC6A1F896AC3007EF773 /* LaunchScreen.storyboard */; };
+		4086EC7A1F89BDD1007EF773 /* FlowDKAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4086EC791F89BDD1007EF773 /* FlowDKAppTests.swift */; };
 		B9084D375DE2D8F09EACDF53 /* Pods_FlowDKApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A71F55D5DE588EFC14D531B /* Pods_FlowDKApp.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4086EC7C1F89BDD1007EF773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4086EC561F896AC3007EF773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4086EC5D1F896AC3007EF773;
+			remoteInfo = FlowDKApp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4086EC5E1F896AC3007EF773 /* FlowDKApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowDKApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,6 +32,9 @@
 		4086EC681F896AC3007EF773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4086EC6B1F896AC3007EF773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4086EC6D1F896AC3007EF773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4086EC771F89BDD1007EF773 /* FlowDKAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowDKAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4086EC791F89BDD1007EF773 /* FlowDKAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowDKAppTests.swift; sourceTree = "<group>"; };
+		4086EC7B1F89BDD1007EF773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E756BE954E1FAEC01998D1E /* Pods-FlowDKApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowDKApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlowDKApp/Pods-FlowDKApp.debug.xcconfig"; sourceTree = "<group>"; };
 		9A71F55D5DE588EFC14D531B /* Pods_FlowDKApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowDKApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E85E83D05EB18EDC4AA332 /* Pods-FlowDKApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowDKApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlowDKApp/Pods-FlowDKApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -32,6 +46,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9084D375DE2D8F09EACDF53 /* Pods_FlowDKApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4086EC741F89BDD1007EF773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				4086EC601F896AC3007EF773 /* FlowDKApp */,
+				4086EC781F89BDD1007EF773 /* FlowDKAppTests */,
 				4086EC5F1F896AC3007EF773 /* Products */,
 				2A132AD5E5D90E3767B02195 /* Pods */,
 				86742264A3DF90A1A1778E33 /* Frameworks */,
@@ -61,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				4086EC5E1F896AC3007EF773 /* FlowDKApp.app */,
+				4086EC771F89BDD1007EF773 /* FlowDKAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +98,15 @@
 				4086EC6D1F896AC3007EF773 /* Info.plist */,
 			);
 			path = FlowDKApp;
+			sourceTree = "<group>";
+		};
+		4086EC781F89BDD1007EF773 /* FlowDKAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4086EC791F89BDD1007EF773 /* FlowDKAppTests.swift */,
+				4086EC7B1F89BDD1007EF773 /* Info.plist */,
+			);
+			path = FlowDKAppTests;
 			sourceTree = "<group>";
 		};
 		86742264A3DF90A1A1778E33 /* Frameworks */ = {
@@ -108,6 +140,24 @@
 			productReference = 4086EC5E1F896AC3007EF773 /* FlowDKApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4086EC761F89BDD1007EF773 /* FlowDKAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4086EC7E1F89BDD1007EF773 /* Build configuration list for PBXNativeTarget "FlowDKAppTests" */;
+			buildPhases = (
+				4086EC731F89BDD1007EF773 /* Sources */,
+				4086EC741F89BDD1007EF773 /* Frameworks */,
+				4086EC751F89BDD1007EF773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4086EC7D1F89BDD1007EF773 /* PBXTargetDependency */,
+			);
+			name = FlowDKAppTests;
+			productName = FlowDKAppTests;
+			productReference = 4086EC771F89BDD1007EF773 /* FlowDKAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -121,6 +171,11 @@
 					4086EC5D1F896AC3007EF773 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+					};
+					4086EC761F89BDD1007EF773 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4086EC5D1F896AC3007EF773;
 					};
 				};
 			};
@@ -138,6 +193,7 @@
 			projectRoot = "";
 			targets = (
 				4086EC5D1F896AC3007EF773 /* FlowDKApp */,
+				4086EC761F89BDD1007EF773 /* FlowDKAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -149,6 +205,13 @@
 			files = (
 				4086EC6C1F896AC3007EF773 /* LaunchScreen.storyboard in Resources */,
 				4086EC691F896AC3007EF773 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4086EC751F89BDD1007EF773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +275,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4086EC731F89BDD1007EF773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4086EC7A1F89BDD1007EF773 /* FlowDKAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4086EC7D1F89BDD1007EF773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4086EC5D1F896AC3007EF773 /* FlowDKApp */;
+			targetProxy = 4086EC7C1F89BDD1007EF773 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4086EC6A1F896AC3007EF773 /* LaunchScreen.storyboard */ = {
@@ -365,6 +444,38 @@
 			};
 			name = Release;
 		};
+		4086EC7F1F89BDD1007EF773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28HAX9NHD8;
+				INFOPLIST_FILE = FlowDKAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flowDK.FlowDKAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowDKApp.app/FlowDKApp";
+			};
+			name = Debug;
+		};
+		4086EC801F89BDD1007EF773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28HAX9NHD8;
+				INFOPLIST_FILE = FlowDKAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flowDK.FlowDKAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowDKApp.app/FlowDKApp";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -382,6 +493,15 @@
 			buildConfigurations = (
 				4086EC711F896AC3007EF773 /* Debug */,
 				4086EC721F896AC3007EF773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4086EC7E1F89BDD1007EF773 /* Build configuration list for PBXNativeTarget "FlowDKAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4086EC7F1F89BDD1007EF773 /* Debug */,
+				4086EC801F89BDD1007EF773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
