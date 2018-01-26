@@ -52,7 +52,7 @@ public class Trigger {
     guard _valid else { return }
     
     pullCount += 1
-    if condition(self) {
+    if condition( self) {
       action(self)
     }
   }

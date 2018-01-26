@@ -7,22 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DC20E608F3F9822CDEED28BE8482A36 /* UIWindow+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D286A78974A27689A6E2163763B867D /* UIWindow+Additions.swift */; };
-		24964019E3F3573EA309DC6B46DFF2E4 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56A4CA480DD5C2AB0DFAD8F49054BB /* String+Additions.swift */; };
+		0DB531FA3D62F3EC71513EA74F17C2AC /* Optional+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC126D5CBC2F03307847FDE99959B7 /* Optional+Additions.swift */; };
+		0E456A08635AD51E094F2F8327F85607 /* FlowDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0E84DA2366473E6491E7F9031A93FA /* FlowDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		216E1F8A8F7D08F4CF5E557C31962D0A /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E04F3F6E2F004815F2DC90AF839BC4 /* String+Additions.swift */; };
 		259C56D7AAEF3814406D8D9426846A47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		31FFDE264AE52C0A1B4970AD0BF2BF4D /* Timer+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D993969C5EC35B87CD4E7F665DC0AC /* Timer+Additions.swift */; };
+		2EBC1536256C645E21B927755626465F /* FlowTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BE2ABEF7BB1302D7142958C7737749 /* FlowTimer.swift */; };
+		33A3F0CA5CF29DAE1AD5358E966FBC88 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A7D8ED39F6E90FFBF7BC9F27F19E2A /* UIColor+Additions.swift */; };
+		43F069CD9C04AA37ABC20E4CD4933DEC /* Timer+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61A4473DD4D7EFF4058D88070E6C981 /* Timer+Additions.swift */; };
+		4A669FCBEA5E619664A20F55E03616CF /* FlowDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9124D5B0246C1C00DBE54F4A8F6CA560 /* FlowDK-dummy.m */; };
 		4F57BF64F08666645CB57089844EA8D7 /* Pods-FlowDKApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D95C957E41529D20189F3E68509B1A /* Pods-FlowDKApp-dummy.m */; };
-		510EB1AE2B7847AC079BA4D226D1C2A3 /* FlowDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0EBA5BD0672908AFF951012D93F55 /* FlowDK-dummy.m */; };
-		5304CA2D50444C9F9887899AEB6122D2 /* FlowDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3FC84A5D69A1B9DEF07F80CE831CDF /* FlowDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67284F00CBF0D07203AA8CEA4AB92D39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		789A8076B8DA7BFD652C2CFBDB3A3BF1 /* Array+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500ED3958D256C9D16B18251621A7EE2 /* Array+Additions.swift */; };
-		8CC5844F31B5F8DB20306FA1BED9B8A1 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098317EB4DB32D24B48D15B859FD8A5F /* UIColor+Additions.swift */; };
+		52AF354C62B1BCBFFB8B37A7792FC54E /* UIApplicationDelegate+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A53B8AC0430E64E5BABA952107823C /* UIApplicationDelegate+Additions.swift */; };
+		552C3057914BB556D380E76F2064CCD0 /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C1368A2B8AC810245C487D27996E7D /* UIView+Additions.swift */; };
+		5730BAD1D3ED3CBE849B9C72D3FF9217 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8ED1B4DC6410EFCEE704919E874A579C /* Pods-FlowDKApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E196D2FA492F6DE7AFA3419F2457868F /* Pods-FlowDKApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90F121EDD62E4C068B2DFC4DD0005B74 /* CGRect+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25DFF8AA7571A81E6B8A73A7585D825 /* CGRect+Additions.swift */; };
-		954EF9AD3631BB53D109EB69F744DB1B /* FlowTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B1C8E32AA8F54B1EDDF0D0C34E0217 /* FlowTimer.swift */; };
-		CC5D60CAB9AD0BE5FCC2A69D6CBDF57F /* Trigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FCFB93BC83CC28EBB6C5E74DA79386 /* Trigger.swift */; };
-		E19FF87E5EBBA0E4278A10D313FCEDCB /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF925400EBF2363F3F7051E26BB92D7D /* UIView+Additions.swift */; };
-		E59A7D885DF2F6FFDBDCDB93194E4768 /* Comparable+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65F06D1807C5EF18D0BFDD8C77F8D7B /* Comparable+Additions.swift */; };
+		98E43E83077944CDF0B346937BC5FC43 /* Comparable+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE2F91B78EF5F3FEBCE055804424E04 /* Comparable+Additions.swift */; };
+		AE80639783DDB9C569E1CEA3EB2A66CF /* Array+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60ABC311AA5504C8A762C690437B335 /* Array+Additions.swift */; };
+		D080BD389E190B258CF9896E389487AF /* CGRect+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A5BE4867499A2550453BECEDA2F571 /* CGRect+Additions.swift */; };
+		EB5882875A414C298A87BBF3D6784E57 /* Trigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242D6E08A3B8BA887217E53EEC5A10A /* Trigger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,50 +31,51 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1424636547CBB8D56EA8DF7DF22E5ED8;
+			remoteGlobalIDString = 3FBEC060946189DAC1F6ABDDD5E3E8D3;
 			remoteInfo = FlowDK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		098317EB4DB32D24B48D15B859FD8A5F /* UIColor+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
-		0C9AA59823FBEE331BBEB8E3DA5A736B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E3FC84A5D69A1B9DEF07F80CE831CDF /* FlowDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlowDK-umbrella.h"; sourceTree = "<group>"; };
+		0FE2F91B78EF5F3FEBCE055804424E04 /* Comparable+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Comparable+Additions.swift"; sourceTree = "<group>"; };
 		1AF4DA86A69EEE89473F0417150A0FF7 /* Pods-FlowDKApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlowDKApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		21A5BE4867499A2550453BECEDA2F571 /* CGRect+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGRect+Additions.swift"; sourceTree = "<group>"; };
+		2242D6E08A3B8BA887217E53EEC5A10A /* Trigger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Trigger.swift; sourceTree = "<group>"; };
 		2A6680C29C54DAD0BB84A627AEAD6214 /* FlowDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlowDK.framework; path = FlowDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5473AD8570E5D23DFDE9A9C05857A7 /* Pods-FlowDKApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlowDKApp.debug.xcconfig"; sourceTree = "<group>"; };
+		38C1368A2B8AC810245C487D27996E7D /* UIView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		3DAC126D5CBC2F03307847FDE99959B7 /* Optional+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Optional+Additions.swift"; sourceTree = "<group>"; };
+		3E0E84DA2366473E6491E7F9031A93FA /* FlowDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlowDK-umbrella.h"; sourceTree = "<group>"; };
 		424CB9B4B1DA17A0115E6828B5EF1B40 /* Pods-FlowDKApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FlowDKApp.modulemap"; sourceTree = "<group>"; };
-		4D286A78974A27689A6E2163763B867D /* UIWindow+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIWindow+Additions.swift"; sourceTree = "<group>"; };
-		500ED3958D256C9D16B18251621A7EE2 /* Array+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Additions.swift"; sourceTree = "<group>"; };
-		5FA0EBA5BD0672908AFF951012D93F55 /* FlowDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlowDK-dummy.m"; sourceTree = "<group>"; };
+		47A7D8ED39F6E90FFBF7BC9F27F19E2A /* UIColor+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		55BE2ABEF7BB1302D7142958C7737749 /* FlowTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlowTimer.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6BB7DA464B0AA17D438FFB94A810F41B /* FlowDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FlowDK.modulemap; sourceTree = "<group>"; };
 		79D95C957E41529D20189F3E68509B1A /* Pods-FlowDKApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlowDKApp-dummy.m"; sourceTree = "<group>"; };
-		7C56A4CA480DD5C2AB0DFAD8F49054BB /* String+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Additions.swift"; sourceTree = "<group>"; };
-		8849778DAB7C3696A9C01721B3739A99 /* FlowDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FlowDK.modulemap; sourceTree = "<group>"; };
+		81A53B8AC0430E64E5BABA952107823C /* UIApplicationDelegate+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIApplicationDelegate+Additions.swift"; sourceTree = "<group>"; };
+		87E7617C4403ACE428FCC16C82247626 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EA60E7F314A3118313942A5DFBEE856 /* Pods_FlowDKApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlowDKApp.framework; path = "Pods-FlowDKApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9124D5B0246C1C00DBE54F4A8F6CA560 /* FlowDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlowDK-dummy.m"; sourceTree = "<group>"; };
 		93661826868E24C4B8CE6B0E8CB5D568 /* Pods-FlowDKApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlowDKApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		958DC62EFAF80E92500AB79F9E9E35FF /* Pods-FlowDKApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlowDKApp.release.xcconfig"; sourceTree = "<group>"; };
 		9F030EDAC9CAA74083AB2592E31E1FF1 /* Pods-FlowDKApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlowDKApp-frameworks.sh"; sourceTree = "<group>"; };
-		A7E430219531EADC38376DCF6AADFD4D /* FlowDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlowDK.xcconfig; sourceTree = "<group>"; };
-		CF925400EBF2363F3F7051E26BB92D7D /* UIView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		B4E04F3F6E2F004815F2DC90AF839BC4 /* String+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Additions.swift"; sourceTree = "<group>"; };
+		C61A4473DD4D7EFF4058D88070E6C981 /* Timer+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Timer+Additions.swift"; sourceTree = "<group>"; };
+		C678FBEDD4E7E3C89D4D36C56F39262B /* FlowDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlowDK.xcconfig; sourceTree = "<group>"; };
 		D35A8D5C90718F189AA398A331BB7B1F /* Pods-FlowDKApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlowDKApp-resources.sh"; sourceTree = "<group>"; };
-		D81EEFF88640A89F5B253234FCE1D8BB /* FlowDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlowDK-prefix.pch"; sourceTree = "<group>"; };
+		D60ABC311AA5504C8A762C690437B335 /* Array+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Additions.swift"; sourceTree = "<group>"; };
 		E196D2FA492F6DE7AFA3419F2457868F /* Pods-FlowDKApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlowDKApp-umbrella.h"; sourceTree = "<group>"; };
-		E25DFF8AA7571A81E6B8A73A7585D825 /* CGRect+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGRect+Additions.swift"; sourceTree = "<group>"; };
-		E4B1C8E32AA8F54B1EDDF0D0C34E0217 /* FlowTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlowTimer.swift; sourceTree = "<group>"; };
-		E4FCFB93BC83CC28EBB6C5E74DA79386 /* Trigger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Trigger.swift; sourceTree = "<group>"; };
-		F3D993969C5EC35B87CD4E7F665DC0AC /* Timer+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Timer+Additions.swift"; sourceTree = "<group>"; };
-		F65F06D1807C5EF18D0BFDD8C77F8D7B /* Comparable+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Comparable+Additions.swift"; sourceTree = "<group>"; };
+		EBFFCC9E550235BB2C25B87DCB79B09A /* FlowDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlowDK-prefix.pch"; sourceTree = "<group>"; };
 		FA4092D93186A5957B2F1F7CF15AEDB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B7CB0C2241E75F264760447C6BA6A0A8 /* Frameworks */ = {
+		8287D2524F549642CBC025A8AAFD4C3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67284F00CBF0D07203AA8CEA4AB92D39 /* Foundation.framework in Frameworks */,
+				5730BAD1D3ED3CBE849B9C72D3FF9217 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,24 +90,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A1E4353BBAB5DCCAA21076B4792A616 /* Utilities */ = {
+		210C4315D4461CE19F20F4A468D7ADD2 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				E4B1C8E32AA8F54B1EDDF0D0C34E0217 /* FlowTimer.swift */,
-				E4FCFB93BC83CC28EBB6C5E74DA79386 /* Trigger.swift */,
+				55BE2ABEF7BB1302D7142958C7737749 /* FlowTimer.swift */,
+				2242D6E08A3B8BA887217E53EEC5A10A /* Trigger.swift */,
 			);
 			name = Utilities;
-			path = Utilities;
+			path = FlowDK/Classes/Utilities;
 			sourceTree = "<group>";
 		};
-		1FF385D09EDA2A315BC697EB38356EB6 /* FlowDK */ = {
+		35A315B1D388B3B052CB94878A780401 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				59F80447501375F183FD53F039FED59D /* FlowDK */,
-				7D0D660254824F34BCAFCB4AC672C26C /* Support Files */,
+				6BB7DA464B0AA17D438FFB94A810F41B /* FlowDK.modulemap */,
+				C678FBEDD4E7E3C89D4D36C56F39262B /* FlowDK.xcconfig */,
+				9124D5B0246C1C00DBE54F4A8F6CA560 /* FlowDK-dummy.m */,
+				EBFFCC9E550235BB2C25B87DCB79B09A /* FlowDK-prefix.pch */,
+				3E0E84DA2366473E6491E7F9031A93FA /* FlowDK-umbrella.h */,
+				87E7617C4403ACE428FCC16C82247626 /* Info.plist */,
 			);
-			name = FlowDK;
-			path = ../..;
+			name = "Support Files";
+			path = "FlowDKApp/Pods/Target Support Files/FlowDK";
 			sourceTree = "<group>";
 		};
 		41BBF91C15A2CA9ED4F9F07292533EA2 /* Pods-FlowDKApp */ = {
@@ -126,21 +132,17 @@
 			path = "Target Support Files/Pods-FlowDKApp";
 			sourceTree = "<group>";
 		};
-		590D45BD1EB549F60604A0874031F224 /* Development Pods */ = {
+		51245FE1753E2F6E387F6D210D122ADD /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				1FF385D09EDA2A315BC697EB38356EB6 /* FlowDK */,
+				D60ABC311AA5504C8A762C690437B335 /* Array+Additions.swift */,
+				3DAC126D5CBC2F03307847FDE99959B7 /* Optional+Additions.swift */,
+				B4E04F3F6E2F004815F2DC90AF839BC4 /* String+Additions.swift */,
+				C61A4473DD4D7EFF4058D88070E6C981 /* Timer+Additions.swift */,
+				81A53B8AC0430E64E5BABA952107823C /* UIApplicationDelegate+Additions.swift */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		59F80447501375F183FD53F039FED59D /* FlowDK */ = {
-			isa = PBXGroup;
-			children = (
-				DE697408FAFA288D15CB93819519F8A0 /* Classes */,
-			);
-			name = FlowDK;
-			path = FlowDK;
+			name = Foundation;
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 		66030E42297B07F7A15FCF74C6C600D8 /* Targets Support Files */ = {
@@ -151,51 +153,56 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		782136632B687B9F3CD3E0EF7885E6DB /* Foundation */ = {
+		68A4ECCCAB27C3CB5A5152C05BBE2444 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				500ED3958D256C9D16B18251621A7EE2 /* Array+Additions.swift */,
-				7C56A4CA480DD5C2AB0DFAD8F49054BB /* String+Additions.swift */,
-				F3D993969C5EC35B87CD4E7F665DC0AC /* Timer+Additions.swift */,
+				47A7D8ED39F6E90FFBF7BC9F27F19E2A /* UIColor+Additions.swift */,
+				38C1368A2B8AC810245C487D27996E7D /* UIView+Additions.swift */,
 			);
-			name = Foundation;
-			path = Foundation;
+			name = UIKit;
+			path = UIKit;
 			sourceTree = "<group>";
 		};
-		7D0D660254824F34BCAFCB4AC672C26C /* Support Files */ = {
+		7D3F5A79E8E4633958E0DBED23BFD7F7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				8849778DAB7C3696A9C01721B3739A99 /* FlowDK.modulemap */,
-				A7E430219531EADC38376DCF6AADFD4D /* FlowDK.xcconfig */,
-				5FA0EBA5BD0672908AFF951012D93F55 /* FlowDK-dummy.m */,
-				D81EEFF88640A89F5B253234FCE1D8BB /* FlowDK-prefix.pch */,
-				0E3FC84A5D69A1B9DEF07F80CE831CDF /* FlowDK-umbrella.h */,
-				0C9AA59823FBEE331BBEB8E3DA5A736B /* Info.plist */,
+				0FE2F91B78EF5F3FEBCE055804424E04 /* Comparable+Additions.swift */,
+				D411DCED2D34271DC29D048BDE1DBF69 /* CoreGraphics */,
+				51245FE1753E2F6E387F6D210D122ADD /* Foundation */,
+				68A4ECCCAB27C3CB5A5152C05BBE2444 /* UIKit */,
 			);
-			name = "Support Files";
-			path = "FlowDKApp/Pods/Target Support Files/FlowDK";
+			name = Extensions;
+			path = FlowDK/Classes/Extensions;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				590D45BD1EB549F60604A0874031F224 /* Development Pods */,
+				8840195FFC1925F06CBD32B30AD2B448 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				E690A87B2E92261C6482BFC2703ABE48 /* Products */,
 				66030E42297B07F7A15FCF74C6C600D8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		96DFE9D91026892A327A20E5D834C719 /* UIKit */ = {
+		8840195FFC1925F06CBD32B30AD2B448 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				098317EB4DB32D24B48D15B859FD8A5F /* UIColor+Additions.swift */,
-				CF925400EBF2363F3F7051E26BB92D7D /* UIView+Additions.swift */,
-				4D286A78974A27689A6E2163763B867D /* UIWindow+Additions.swift */,
+				B581E394D168723DEDEE347D63BCE4EF /* FlowDK */,
 			);
-			name = UIKit;
-			path = UIKit;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B581E394D168723DEDEE347D63BCE4EF /* FlowDK */ = {
+			isa = PBXGroup;
+			children = (
+				7D3F5A79E8E4633958E0DBED23BFD7F7 /* Extensions */,
+				35A315B1D388B3B052CB94878A780401 /* Support Files */,
+				210C4315D4461CE19F20F4A468D7ADD2 /* Utilities */,
+			);
+			name = FlowDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -206,15 +213,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C66822A56CA40DDAFE3EF05FA9981DC5 /* CoreGraphics */ = {
-			isa = PBXGroup;
-			children = (
-				E25DFF8AA7571A81E6B8A73A7585D825 /* CGRect+Additions.swift */,
-			);
-			name = CoreGraphics;
-			path = CoreGraphics;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,26 +221,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DE697408FAFA288D15CB93819519F8A0 /* Classes */ = {
+		D411DCED2D34271DC29D048BDE1DBF69 /* CoreGraphics */ = {
 			isa = PBXGroup;
 			children = (
-				E005A36B38B3F73E3F3091EAC21366B9 /* Extensions */,
-				0A1E4353BBAB5DCCAA21076B4792A616 /* Utilities */,
+				21A5BE4867499A2550453BECEDA2F571 /* CGRect+Additions.swift */,
 			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		E005A36B38B3F73E3F3091EAC21366B9 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				F65F06D1807C5EF18D0BFDD8C77F8D7B /* Comparable+Additions.swift */,
-				C66822A56CA40DDAFE3EF05FA9981DC5 /* CoreGraphics */,
-				782136632B687B9F3CD3E0EF7885E6DB /* Foundation */,
-				96DFE9D91026892A327A20E5D834C719 /* UIKit */,
-			);
-			name = Extensions;
-			path = Extensions;
+			name = CoreGraphics;
+			path = CoreGraphics;
 			sourceTree = "<group>";
 		};
 		E690A87B2E92261C6482BFC2703ABE48 /* Products */ = {
@@ -257,14 +242,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		45FC2F4ABAA64734265C163634144166 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5304CA2D50444C9F9887899AEB6122D2 /* FlowDK-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D01D3C441CF20CB0CDCA72B5453DFAB5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,16 +250,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FEE666A5CF6A867549F9A1BA002EEA2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E456A08635AD51E094F2F8327F85607 /* FlowDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1424636547CBB8D56EA8DF7DF22E5ED8 /* FlowDK */ = {
+		3FBEC060946189DAC1F6ABDDD5E3E8D3 /* FlowDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36029E903E615E53081D319BA17FF177 /* Build configuration list for PBXNativeTarget "FlowDK" */;
+			buildConfigurationList = 58642B3C1DBEF1289685FB33D0C70371 /* Build configuration list for PBXNativeTarget "FlowDK" */;
 			buildPhases = (
-				B5A9C006E3B662A759999E0DE659C5E9 /* Sources */,
-				B7CB0C2241E75F264760447C6BA6A0A8 /* Frameworks */,
-				45FC2F4ABAA64734265C163634144166 /* Headers */,
+				9055DD5B015A0FD6CB576DC5922F49ED /* Sources */,
+				8287D2524F549642CBC025A8AAFD4C3E /* Frameworks */,
+				FEE666A5CF6A867549F9A1BA002EEA2E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -332,7 +317,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1424636547CBB8D56EA8DF7DF22E5ED8 /* FlowDK */,
+				3FBEC060946189DAC1F6ABDDD5E3E8D3 /* FlowDK */,
 				EB3EB0C56095A0556E3A66C3A974DD24 /* Pods-FlowDKApp */,
 			);
 		};
@@ -347,21 +332,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5A9C006E3B662A759999E0DE659C5E9 /* Sources */ = {
+		9055DD5B015A0FD6CB576DC5922F49ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				789A8076B8DA7BFD652C2CFBDB3A3BF1 /* Array+Additions.swift in Sources */,
-				90F121EDD62E4C068B2DFC4DD0005B74 /* CGRect+Additions.swift in Sources */,
-				E59A7D885DF2F6FFDBDCDB93194E4768 /* Comparable+Additions.swift in Sources */,
-				510EB1AE2B7847AC079BA4D226D1C2A3 /* FlowDK-dummy.m in Sources */,
-				954EF9AD3631BB53D109EB69F744DB1B /* FlowTimer.swift in Sources */,
-				24964019E3F3573EA309DC6B46DFF2E4 /* String+Additions.swift in Sources */,
-				31FFDE264AE52C0A1B4970AD0BF2BF4D /* Timer+Additions.swift in Sources */,
-				CC5D60CAB9AD0BE5FCC2A69D6CBDF57F /* Trigger.swift in Sources */,
-				8CC5844F31B5F8DB20306FA1BED9B8A1 /* UIColor+Additions.swift in Sources */,
-				E19FF87E5EBBA0E4278A10D313FCEDCB /* UIView+Additions.swift in Sources */,
-				0DC20E608F3F9822CDEED28BE8482A36 /* UIWindow+Additions.swift in Sources */,
+				AE80639783DDB9C569E1CEA3EB2A66CF /* Array+Additions.swift in Sources */,
+				D080BD389E190B258CF9896E389487AF /* CGRect+Additions.swift in Sources */,
+				98E43E83077944CDF0B346937BC5FC43 /* Comparable+Additions.swift in Sources */,
+				4A669FCBEA5E619664A20F55E03616CF /* FlowDK-dummy.m in Sources */,
+				2EBC1536256C645E21B927755626465F /* FlowTimer.swift in Sources */,
+				0DB531FA3D62F3EC71513EA74F17C2AC /* Optional+Additions.swift in Sources */,
+				216E1F8A8F7D08F4CF5E557C31962D0A /* String+Additions.swift in Sources */,
+				43F069CD9C04AA37ABC20E4CD4933DEC /* Timer+Additions.swift in Sources */,
+				EB5882875A414C298A87BBF3D6784E57 /* Trigger.swift in Sources */,
+				52AF354C62B1BCBFFB8B37A7792FC54E /* UIApplicationDelegate+Additions.swift in Sources */,
+				33A3F0CA5CF29DAE1AD5358E966FBC88 /* UIColor+Additions.swift in Sources */,
+				552C3057914BB556D380E76F2064CCD0 /* UIView+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,178 +357,13 @@
 		4C31E0868E75474567AC91FC1058E3B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlowDK;
-			target = 1424636547CBB8D56EA8DF7DF22E5ED8 /* FlowDK */;
+			target = 3FBEC060946189DAC1F6ABDDD5E3E8D3 /* FlowDK */;
 			targetProxy = C7305D583837CB06AE5BC4C8F4B2811E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		6B7CBE09BF695F7437DB94624112FC6F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7E430219531EADC38376DCF6AADFD4D /* FlowDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FlowDK/FlowDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FlowDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FlowDK/FlowDK.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FlowDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7D144F724433A09597E3476A57631255 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		924A4513270E18D52AD0FA99A2B3CA77 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C5473AD8570E5D23DFDE9A9C05857A7 /* Pods-FlowDKApp.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FlowDKApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FlowDKApp/Pods-FlowDKApp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FlowDKApp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C1E0D01DB5B80D9B9B197A6243798DC1 /* Release */ = {
+		3C8988543A0A136C9D4D98E218527F10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 958DC62EFAF80E92500AB79F9E9E35FF /* Pods-FlowDKApp.release.xcconfig */;
 			buildSettings = {
@@ -551,20 +372,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-FlowDKApp/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FlowDKApp/Pods-FlowDKApp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -573,45 +390,222 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		E3C96E5DD71A32A6C64A823F993C2135 /* Debug */ = {
+		544B423097ABEE050C52A3C91FFED068 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7E430219531EADC38376DCF6AADFD4D /* FlowDK.xcconfig */;
+			baseConfigurationReference = C678FBEDD4E7E3C89D4D36C56F39262B /* FlowDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/FlowDK/FlowDK-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FlowDK/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FlowDK/FlowDK.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = FlowDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66E3A97586A4B4FEAF9F454AEECF6237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C5473AD8570E5D23DFDE9A9C05857A7 /* Pods-FlowDKApp.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlowDKApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlowDKApp/Pods-FlowDKApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlowDKApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		821A3CB62C2D0103CC921B9C390DF7D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C678FBEDD4E7E3C89D4D36C56F39262B /* FlowDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlowDK/FlowDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlowDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlowDK/FlowDK.modulemap";
+				PRODUCT_NAME = FlowDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
@@ -621,17 +615,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D144F724433A09597E3476A57631255 /* Debug */,
-				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36029E903E615E53081D319BA17FF177 /* Build configuration list for PBXNativeTarget "FlowDK" */ = {
+		58642B3C1DBEF1289685FB33D0C70371 /* Build configuration list for PBXNativeTarget "FlowDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3C96E5DD71A32A6C64A823F993C2135 /* Debug */,
-				6B7CBE09BF695F7437DB94624112FC6F /* Release */,
+				544B423097ABEE050C52A3C91FFED068 /* Debug */,
+				821A3CB62C2D0103CC921B9C390DF7D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -639,8 +633,8 @@
 		886CB62FADB8250B0A881CD419FFDD81 /* Build configuration list for PBXNativeTarget "Pods-FlowDKApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				924A4513270E18D52AD0FA99A2B3CA77 /* Debug */,
-				C1E0D01DB5B80D9B9B197A6243798DC1 /* Release */,
+				66E3A97586A4B4FEAF9F454AEECF6237 /* Debug */,
+				3C8988543A0A136C9D4D98E218527F10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
