@@ -16,7 +16,33 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "FlowDK/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "FlowDK/Core/Classes/**/*"
+    },
+    {
+      "name": "AnyAPI",
+      "source_files": "FlowDK/AnyAPI/Classes/**/*",
+      "dependencies": {
+        "FlowDK/Core": [
+
+        ],
+        "ObjectMapper": [
+
+        ],
+        "Alamofire": [
+
+        ],
+        "AlamofireNetworkActivityIndicator": [
+
+        ],
+        "AlamofireObjectMapper": [
+
+        ]
+      }
+    }
+  ]
 }

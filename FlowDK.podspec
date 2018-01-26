@@ -11,32 +11,28 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'FlowDK is an SDK for Swift developers intended to optimize their happiness'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 FlowDK is an SDK for Swift developers intended to optimize their happiness by extending the Swift standard library with delightful and useful extensions, utilities, views and more.
                        DESC
 
   s.homepage         = 'https://github.com/FlowDK/FlowDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JP McGlone' => 'jp@trifl.co' }
   s.source           = { :git => 'https://github.com/FlowDK/FlowDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'FlowDK/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'FlowDK' => ['FlowDK/Assets/*.png']
-  # }
+  s.subspec 'Core' do |ss|
+    ss.source_files = 'FlowDK/Core/Classes/**/*'
+  end
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'AnyAPI' do |ss|
+    ss.source_files = 'FlowDK/AnyAPI/Classes/**/*'
+    ss.dependency 'FlowDK/Core'
+    ss.dependency 'ObjectMapper'
+    ss.dependency 'Alamofire'
+    ss.dependency 'AlamofireNetworkActivityIndicator'
+    ss.dependency 'AlamofireObjectMapper'
+  end
 end
