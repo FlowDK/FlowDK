@@ -25,6 +25,8 @@ FlowDK is an SDK for Swift developers intended to optimize their happiness by ex
 
   s.subspec 'Core' do |ss|
     ss.source_files = 'FlowDK/Core/Classes/**/*'
+    ss.dependency 'CocoaLumberjack/Swift'
+    ss.dependency 'SnapKit'
   end
 
   s.subspec 'AnyAPI' do |ss|
