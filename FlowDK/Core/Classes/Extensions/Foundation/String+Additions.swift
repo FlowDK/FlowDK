@@ -4,9 +4,9 @@ public extension String {
   public var urlEncoded: String {
     return CFURLCreateStringByAddingPercentEscapes(
       nil,
-      self as CFString!,
+      self as CFString?,
       nil,
-      "!*'();:@&=+$,/?%#[]" as CFString!,CFStringBuiltInEncodings.UTF8.rawValue
+      "!*'();:@&=+$,/?%#[]" as CFString?,CFStringBuiltInEncodings.UTF8.rawValue
       ) as String
   }
 }
