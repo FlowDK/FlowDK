@@ -57,16 +57,20 @@ public extension Array {
   }
 }
 
-extension Array where Element: Equatable {
+public extension Array where Element: Equatable {
+  public func index(of object : Element) -> Int? {
+    return (self as NSArray).index(of: object)
+  }
+  
   @discardableResult
-  mutating func remove(object: Element) -> Element? {
+  public mutating func remove(object : Element) -> Element? {
     if let index = index(of: object) {
-      return remove(at: index)
+     return self.remove(at: index)
     }
     return nil
   }
   
-  func without(elements: [Element]) -> Array {
+  public func without(elements: [Element]) -> Array {
     var result = self
     for element in elements {
       result.remove(object: element)

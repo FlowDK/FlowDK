@@ -80,8 +80,8 @@ public extension UIView {
   }
   
   // Heirarchy
-  public func bringToFront() -> UIView { superview?.bringSubview(toFront: self); return self }
-  public func sendToBack() -> UIView { superview?.sendSubview(toBack: self); return self }
+  public func bringToFront() -> UIView { superview?.bringSubviewToFront(self); return self }
+  public func sendToBack() -> UIView { superview?.sendSubviewToBack(self); return self }
   
   // Frame in other views
   public func frameInWindow() -> CGRect { return frameInView(nil) }
