@@ -1,6 +1,6 @@
 {
   "name": "FlowDK",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "FlowDK is an SDK for Swift developers intended to optimize their happiness",
   "description": "FlowDK is an SDK for Swift developers intended to optimize their happiness by extending the Swift standard library with delightful and useful extensions, utilities, views and more.",
   "homepage": "https://github.com/FlowDK/FlowDK",
@@ -13,8 +13,9 @@
   },
   "source": {
     "git": "https://github.com/FlowDK/FlowDK.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
+  "social_media_url": "https://twitter.com/FlowDK",
   "platforms": {
     "ios": "11.0"
   },

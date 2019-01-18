@@ -8,16 +8,16 @@ PODS:
   - CocoaLumberjack/Default (3.4.2)
   - CocoaLumberjack/Swift (3.4.2):
     - CocoaLumberjack/Default
-  - FlowDK (0.1.0):
-    - FlowDK/AnyAPI (= 0.1.0)
-    - FlowDK/Core (= 0.1.0)
-  - FlowDK/AnyAPI (0.1.0):
+  - FlowDK (0.1.1):
+    - FlowDK/AnyAPI (= 0.1.1)
+    - FlowDK/Core (= 0.1.1)
+  - FlowDK/AnyAPI (0.1.1):
     - Alamofire
     - AlamofireNetworkActivityIndicator
     - AlamofireObjectMapper
     - FlowDK/Core
     - ObjectMapper
-  - FlowDK/Core (0.1.0):
+  - FlowDK/Core (0.1.1):
     - CocoaLumberjack/Swift
     - SnapKit
   - ObjectMapper (3.4.2)
@@ -44,7 +44,7 @@ SPEC CHECKSUMS:
   AlamofireNetworkActivityIndicator: 18346ff6d770d9513d0ac6f2d99706f40f93dbaa
   AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
   CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
-  FlowDK: e34e649331d3f095033fbb4f48b2335966824556
+  FlowDK: d7a6a5474b0edb405e53b0ced31c56e11b85522f
   ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
