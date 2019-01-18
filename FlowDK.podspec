@@ -17,11 +17,11 @@ FlowDK is an SDK for Swift developers intended to optimize their happiness by ex
 
   s.homepage         = 'https://github.com/FlowDK/FlowDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'JP McGlone' => 'jp@trifl.co' }
+  s.author           = { 'JP McGlone' => 'jp@jpmcglone.com' }
   s.source           = { :git => 'https://github.com/FlowDK/FlowDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.subspec 'Core' do |ss|
     ss.source_files = 'FlowDK/Core/Classes/**/*'

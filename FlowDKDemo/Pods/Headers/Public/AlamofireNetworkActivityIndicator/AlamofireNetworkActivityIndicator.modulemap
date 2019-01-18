@@ -1,0 +1,6 @@
+module AlamofireNetworkActivityIndicator {
+  umbrella header "AlamofireNetworkActivityIndicator-umbrella.h"
+
+  export *
+  module * { export * }
+}
