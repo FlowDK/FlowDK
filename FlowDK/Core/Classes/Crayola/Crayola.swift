@@ -15,5 +15,13 @@ public struct Crayola {
   public static var mangoTango = UIColor(0xE77200)
   public static var yellowOrange = UIColor(0xFFAE42)
   public static var bananaMania = UIColor(0xFBE7B2)
+  public static var orangeYellow = UIColor(0xF8D568)
+  public static var goldenrod = UIColor(0xFCD667)
+  public static var dandelion = UIColor(0xFED85D)
+  public static var yellow = UIColor(0xFBE870)
+  public static var greenYellow = UIColor(0xF1E788)
+  public static var oliveGreen = UIColor(0xB5B35C)
+  public static var springGreen = UIColor(0xECEBBD)
+  public static var canary = UIColor(0xFFFF99)
   
 }
