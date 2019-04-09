@@ -1,44 +1,44 @@
 import Foundation
 
 open class FlowTimer {
-  open var fps = 60.0
+  open var fps: Int {
+    set { displaylink.preferredFramesPerSecond = newValue }
+    get { return displaylink.preferredFramesPerSecond }
+  }
   
   fileprivate var initialDate: Date!
-  fileprivate var timer = Timer()
+  fileprivate var displaylink = CADisplayLink()
   fileprivate var timeFunction: ((Double) -> Bool)?
   fileprivate var duration = 0.0
   fileprivate var usesDuration = false
   
-  public init(fps: Double) {
+  public init(fps: Int) {
+    displaylink = CADisplayLink(target: self,
+                                selector: #selector(fireTimeFunction(_:)))
+    displaylink.add(to: .current, forMode: .default)
+    displaylink.preferredFramesPerSecond = fps
     self.fps = fps
   }
   
   open func fire(_ function:@escaping (_ time: Double) -> Bool) {
+    displaylink.isPaused = false
     fire(function, duration: 0)
     usesDuration = false
   }
   
   open func fire(_ function:@escaping (_ time: Double) -> Bool, duration: TimeInterval) {
-    invalidate()
+    usesDuration = true
     timeFunction = function
     initialDate = Date()
     self.duration = duration
-    timer = Timer.scheduledTimer(
-      timeInterval: 1.0 / fps,
-      target: self,
-      selector: Selector(("fireTimeFunction")),
-      userInfo: nil,
-      repeats: true
-    )
   }
   
   open func invalidate() {
-    timer.invalidate()
+    displaylink.isPaused = true
     duration = 0.0
-    usesDuration = true
   }
   
-  fileprivate func fireTimeFunction() {
+  @objc fileprivate func fireTimeFunction(_ displayLink: CADisplayLink) {
     if let timeFunction = timeFunction {
       var time = Date().timeIntervalSince(initialDate)
       
@@ -48,7 +48,7 @@ open class FlowTimer {
         time = min(time, duration)
       }
       
-      let stop = !timeFunction(time)
+      let stop = timeFunction(time)
       if stop || (usesDuration && time == duration) {
         invalidate()
       }

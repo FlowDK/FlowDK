@@ -5,7 +5,7 @@ public protocol FlowDKApplicationDelegate: UIApplicationDelegate {
 }
 
 public extension FlowDKApplicationDelegate {
-  public func setupWindow(withRootViewController rootViewController: UIViewController, makeKeyAndVisible: Bool = true) {
+  func setupWindow(withRootViewController rootViewController: UIViewController, makeKeyAndVisible: Bool = true) {
     let window = UIWindow(frame: UIScreen.main.bounds)
     window.rootViewController = rootViewController
     if makeKeyAndVisible {
