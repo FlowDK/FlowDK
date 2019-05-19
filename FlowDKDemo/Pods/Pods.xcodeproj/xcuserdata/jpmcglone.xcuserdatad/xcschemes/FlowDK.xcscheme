@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9E8B19FB2FB96F7D016D9DC92A8A3C0A"
+               BlueprintIdentifier = "4BAEB096B37E7419BB44FB1C492CAD78"
+               BuildableName = "libFlowDK.a"
                BlueprintName = "FlowDK"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libFlowDK.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

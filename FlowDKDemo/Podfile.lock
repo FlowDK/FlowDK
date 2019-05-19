@@ -1,13 +1,13 @@
 PODS:
-  - Alamofire (4.8.1)
-  - AlamofireNetworkActivityIndicator (2.3.0):
-    - Alamofire (~> 4.7)
+  - Alamofire (4.8.2)
+  - AlamofireNetworkActivityIndicator (2.4.0):
+    - Alamofire (~> 4.8)
   - AlamofireObjectMapper (5.2.0):
     - Alamofire (~> 4.7)
     - ObjectMapper (~> 3.4)
-  - CocoaLumberjack/Default (3.4.2)
-  - CocoaLumberjack/Swift (3.4.2):
-    - CocoaLumberjack/Default
+  - CocoaLumberjack/Core (3.5.3)
+  - CocoaLumberjack/Swift (3.5.3):
+    - CocoaLumberjack/Core
   - FlowDK (0.1.1):
     - FlowDK/AnyAPI (= 0.1.1)
     - FlowDK/Core (= 0.1.1)
@@ -21,7 +21,7 @@ PODS:
     - CocoaLumberjack/Swift
     - SnapKit
   - ObjectMapper (3.4.2)
-  - SnapKit (4.2.0)
+  - SnapKit (5.0.0)
 
 DEPENDENCIES:
   - FlowDK (from `..`)
@@ -40,14 +40,14 @@ EXTERNAL SOURCES:
     :path: ".."
 
 SPEC CHECKSUMS:
-  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
-  AlamofireNetworkActivityIndicator: 18346ff6d770d9513d0ac6f2d99706f40f93dbaa
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireNetworkActivityIndicator: 9acc3de3ca6645bf0efed462396b0df13dd3e7b8
   AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
-  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
-  FlowDK: d7a6a5474b0edb405e53b0ced31c56e11b85522f
+  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
+  FlowDK: 6fc5e567ca47ac692b7c9baa0f35ff8cbebd3cc2
   ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
-  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
 
 PODFILE CHECKSUM: a7bb3688d5f2027b83fdf3bf2863fed4de4f8119
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.2
