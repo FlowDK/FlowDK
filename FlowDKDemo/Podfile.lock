@@ -20,14 +20,14 @@ PODS:
   - FlowDK/Core (0.1.1):
     - CocoaLumberjack/Swift
     - SnapKit
-  - ObjectMapper (3.4.2)
-  - SnapKit (5.0.0)
+  - ObjectMapper (3.5.1)
+  - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - FlowDK (from `..`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - AlamofireNetworkActivityIndicator
     - AlamofireObjectMapper
@@ -45,9 +45,9 @@ SPEC CHECKSUMS:
   AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
   CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
   FlowDK: 6fc5e567ca47ac692b7c9baa0f35ff8cbebd3cc2
-  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
-  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: a7bb3688d5f2027b83fdf3bf2863fed4de4f8119
+PODFILE CHECKSUM: f0dc7978d4b93ff419bfff277f0e5a30a07efa4d
 
-COCOAPODS: 1.6.2
+COCOAPODS: 1.8.0.beta.1

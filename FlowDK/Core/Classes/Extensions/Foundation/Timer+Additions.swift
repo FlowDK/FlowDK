@@ -6,12 +6,12 @@ private class Block<T> {
 }
 
 public extension Timer {
-  public class func scheduledTimer(_ timeInterval: TimeInterval, block: @escaping ()->(), repeats: Bool) -> Timer {
+  class func scheduledTimer(_ timeInterval: TimeInterval, block: @escaping ()->(), repeats: Bool) -> Timer {
     let block = Block<()->()>.init(f: block)
     return Timer.scheduledTimer(timeInterval: timeInterval, target: self, selector: #selector(Timer.block(_:)), userInfo: block, repeats: repeats)
   }
   
-  public class func scheduledTimer(_ timeInterval: TimeInterval, block: @escaping ()->()) -> Timer {
+  class func scheduledTimer(_ timeInterval: TimeInterval, block: @escaping ()->()) -> Timer {
     return scheduledTimer(timeInterval, block: block, repeats: false)
   }
   

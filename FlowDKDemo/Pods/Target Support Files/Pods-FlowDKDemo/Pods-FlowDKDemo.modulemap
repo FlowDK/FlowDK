@@ -1,4 +1,4 @@
-module Pods_FlowDKDemo {
+framework module Pods_FlowDKDemo {
   umbrella header "Pods-FlowDKDemo-umbrella.h"
 
   export *

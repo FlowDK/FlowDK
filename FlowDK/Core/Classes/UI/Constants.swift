@@ -1,5 +1,4 @@
 import UIKit
-import FlowDK
 
 // TODO: Make a better way to have configuration in FlowDK
 public struct Constants {

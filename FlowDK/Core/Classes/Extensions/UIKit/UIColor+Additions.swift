@@ -1,7 +1,7 @@
 import UIKit
 
 public extension UIColor {
-  public convenience init(_ hex: UInt32, alpha: CGFloat = 1) {
+  convenience init(_ hex: UInt32, alpha: CGFloat = 1) {
     let divisor = CGFloat(255)
     let red     = CGFloat((hex & 0xFF0000) >> 16) / divisor
     let green   = CGFloat((hex & 0x00FF00) >>  8) / divisor

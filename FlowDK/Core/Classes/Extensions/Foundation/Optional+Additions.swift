@@ -10,7 +10,7 @@ public protocol Emptyable {
 }
 
 public extension Optional where Wrapped: Emptyable {
-  public var isEmpty: Bool {
+  var isEmpty: Bool {
     get {
       return self?.isEmpty ?? false
     }
@@ -18,7 +18,7 @@ public extension Optional where Wrapped: Emptyable {
 }
 
 public extension Optional where Wrapped: Blankable {
-  public var isBlank: Bool {
+  var isBlank: Bool {
     get {
       return self?.isBlank ?? true
     }

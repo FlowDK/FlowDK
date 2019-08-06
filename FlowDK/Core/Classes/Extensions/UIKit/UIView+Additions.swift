@@ -1,15 +1,15 @@
 import UIKit
 
 public extension UIView {
-  public func addSubviews(_ views: UIView...) {
+  func addSubviews(_ views: UIView...) {
     addSubviews(views)
   }
   
-  public func addSubviews(_ views: [UIView]) {
+  func addSubviews(_ views: [UIView]) {
     for view in views { addSubview(view) }
   }
   
-  public func makeCircle() {
+  func makeCircle() {
     let shorterSide = min(bounds.height, bounds.width)
     layer.cornerRadius = shorterSide * 0.5
     layer.masksToBounds = true
@@ -32,18 +32,18 @@ extension CGFloat: LayoutItem { }
 public extension UIView {
   // Everything from here to `height` isn't really needed in swift, since view.frame.size.width = x works,
   // but it is a little neater, and this works very well w/ objective-c so it's staying in
-  public var origin: CGPoint { get { return frame.origin } set(origin) { frame.origin = origin} }
-  public var size: CGSize { get { return frame.size } set(size) { frame.size = size} }
+  var origin: CGPoint { get { return frame.origin } set(origin) { frame.origin = origin} }
+  var size: CGSize { get { return frame.size } set(size) { frame.size = size} }
   
-  public var x: CGFloat { get { return frame.minX } set(x) { frame.origin.x = x } }
-  public var y: CGFloat { get { return frame.minY } set(y) { frame.origin.y = y } }
-  public var width: CGFloat { get { return bounds.width } set(width) { bounds.size.width = width } }
-  public var height: CGFloat { get { return bounds.height} set(height) { bounds.size.height = height } }
+  var x: CGFloat { get { return frame.minX } set(x) { frame.origin.x = x } }
+  var y: CGFloat { get { return frame.minY } set(y) { frame.origin.y = y } }
+  var width: CGFloat { get { return bounds.width } set(width) { bounds.size.width = width } }
+  var height: CGFloat { get { return bounds.height} set(height) { bounds.size.height = height } }
   
-  public var left: CGFloat { get { return x } set(left) { x = left } }
-  public var top: CGFloat { get { return y } set(top) { y = top } }
-  public var right: CGFloat  { get { return frame.maxX } set(right) { x = right - width } }
-  public var rightMargin: CGFloat {
+  var left: CGFloat { get { return x } set(left) { x = left } }
+  var top: CGFloat { get { return y } set(top) { y = top } }
+  var right: CGFloat  { get { return frame.maxX } set(right) { x = right - width } }
+  var rightMargin: CGFloat {
     get {
       guard let superview = superview else { return 0 }
       return superview.width - right
@@ -55,11 +55,11 @@ public extension UIView {
     }
   }
   
-  public var bottom: CGFloat {
+  var bottom: CGFloat {
     get { return frame.maxY }
     set { y = newValue - height }
   }
-  public var bottomMargin: CGFloat {
+  var bottomMargin: CGFloat {
     get {
       guard let superview = superview else { return 0 }
       return superview.height - bottom
@@ -72,7 +72,7 @@ public extension UIView {
   }
   
   // Similar to center, but in relation to itself
-  public var middle: CGPoint { get { return CGPoint(x: width / 2, y: height / 2) }
+  var middle: CGPoint { get { return CGPoint(x: width / 2, y: height / 2) }
     set(middle) {
       center.x += (self.middle.x - middle.x)
       center.y += (self.middle.y - middle.y)
@@ -80,20 +80,20 @@ public extension UIView {
   }
   
   // Heirarchy
-  public func bringToFront() -> UIView { superview?.bringSubviewToFront(self); return self }
-  public func sendToBack() -> UIView { superview?.sendSubviewToBack(self); return self }
+  func bringToFront() -> UIView { superview?.bringSubviewToFront(self); return self }
+  func sendToBack() -> UIView { superview?.sendSubviewToBack(self); return self }
   
   // Frame in other views
-  public func frameInWindow() -> CGRect { return frameInView(nil) }
-  public func frameInView(_ view: UIView?) -> CGRect { return convert(bounds, to: view) }
+  func frameInWindow() -> CGRect { return frameInView(nil) }
+  func frameInView(_ view: UIView?) -> CGRect { return convert(bounds, to: view) }
   
-  public func moveToView(_ view: UIView?) {
+  func moveToView(_ view: UIView?) {
     view?.addSubview(self)
     frame = frameInView(view)
   }
   
   // Ceter the view horizontally or vertically
-  public func center(orientation: LayoutOrientation) {
+  func center(orientation: LayoutOrientation) {
     guard let superview = superview else {
       // TODO: log a warning
       print("center(orientation: LayoutOrientation) You cannot center a view that does not have a superview.")
@@ -108,7 +108,7 @@ public extension UIView {
     }
   }
   
-  public func center(subviews: [UIView], orientation: LayoutOrientation) {
+  func center(subviews: [UIView], orientation: LayoutOrientation) {
     for subview in subviews {
       subview.center(orientation: orientation)
     }
@@ -124,7 +124,7 @@ public extension UIView {
    
    - [1, view1, 0.5, view2, 1] will space out view1 and view2 such that the margin of the left and the right are the same, but the space between the views will be half that of the margin
    */
-  public func layout(orientation: LayoutOrientation, items: [LayoutItem]) {
+  func layout(orientation: LayoutOrientation, items: [LayoutItem]) {
     var delta: CGFloat = 0
     var totalPercentage: CGFloat = 0
     

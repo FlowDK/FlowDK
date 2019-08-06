@@ -1,7 +1,7 @@
 import UIKit
 
 public extension UIFont {
-  public class func allFontNames() -> [String: [String]] {
+  class func allFontNames() -> [String: [String]] {
     var all = [String: [String]]()
     for familyName in familyNames {
       let fontNames = UIFont.fontNames(forFamilyName: familyName)
@@ -10,7 +10,7 @@ public extension UIFont {
     return all
   }
   
-  public class func allFontNamesString() -> String {
+  class func allFontNamesString() -> String {
     let all = allFontNames()
     
     var string = ""

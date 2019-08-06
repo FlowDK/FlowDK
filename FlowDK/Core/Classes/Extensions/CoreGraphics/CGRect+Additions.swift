@@ -9,7 +9,7 @@ public func CGRectFromEdgeInsets(_ rect: CGRect, edgeInsets: UIEdgeInsets) -> CG
 }
 
 public extension CGRect {
-  public func inset(_ dx: CGFloat, dy:CGFloat) -> CGRect {
+  func inset(_ dx: CGFloat, dy:CGFloat) -> CGRect {
     return self.insetBy(dx: dx, dy: dy)
   }
 }

@@ -7,7 +7,7 @@ public enum LoggerType {
 public class Logger {
   public class func initialize() {
     DDLog.add(DDTTYLogger.sharedInstance)
-    DDLog.add(DDASLLogger.sharedInstance)
+    DDLog.add(DDOSLogger.sharedInstance)
     
     let fileLogger: DDFileLogger = DDFileLogger()
     fileLogger.rollingFrequency = TimeInterval(60 * 60 * 20) // 24 hours
