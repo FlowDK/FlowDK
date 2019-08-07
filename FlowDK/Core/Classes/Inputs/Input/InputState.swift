@@ -1,3 +1,3 @@
 public enum InputState {
-  case complete
+  case initial, editing, complete, cancelled, edited
 }

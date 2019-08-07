@@ -1,14 +1,21 @@
 import UIKit
 
-public class Input<T>: InputType {
-  public var response: (Input<T>, T, InputState)->() = { _, _, _ in
-    
-  }
-  public init(response: @escaping (Input<T>, T, InputState)->()) {
-    self.response = response
-  }
+public protocol InputType {
+  var state: InputState { get set }
 }
 
-public protocol InputType {
-  //
+public class Input<Value>: InputType {
+//  public typealias InputViewControllerType = InputViewController<Value, Input<Value>>.Type
+  
+  public typealias InputResponse = (Input<Value>)->()
+  
+  public var state: InputState = .initial
+  public var value: Value?
+  public var inputViewControllerType: InputViewController<Value>.Type?
+  
+  public init() {
+    
+  }
+//  public init<T: InputViewController<Value, U>, U: Input<Value>>(_ inputViewControllerType: T.Type) {
+//  }
 }
